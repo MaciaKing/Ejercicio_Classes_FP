@@ -37,7 +37,7 @@ if __name__ == '__main__':
     parser.add_argument("-d", help="decript message")
     args = parser.parse_args()
 
-    #pdb.set_trace()
+    pdb.set_trace()
 
     # Crypt message
     if args.c:

@@ -12,7 +12,7 @@ class Coche():
 class Carrera():
     def __init__(self, coches):
         self.coches=coches
-        self.resultado=[]
+        self.resultado=[] #### UTILIZAR
 
     def mostrar_parrilla_de_salida(self):
         aux = 1
@@ -20,6 +20,16 @@ class Carrera():
             print("El coche ", coche.nombre, "sale en [",aux,"] posicion")
             aux = aux+1
     
+    def empieza_carrera(self):
+        print("La carrera ha empezado..")
+
+    def finaliza_carrera(self):
+        # Generar randoms entre mis self.coches
+        None
+    
+    def muestra_resultado(self):
+        # RECORRER (FOR SOBRE RESULTADO)
+        None
 
 if __name__ == '__main__':
     c1 = Coche("Mercedes", "120hp")

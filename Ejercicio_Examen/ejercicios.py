@@ -29,7 +29,8 @@ class Carrera():
     
     def muestra_resultado(self):
         # RECORRER (FOR SOBRE RESULTADO)
-        None
+        for coche in self.resultado:
+            print(coche.to_string())
 
 if __name__ == '__main__':
     c1 = Coche("Mercedes", "120hp")
